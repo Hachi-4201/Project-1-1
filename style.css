@@ -1,0 +1,56 @@
+
+body {
+  background-color: #FF8050;
+  background-image: url("http://www.shelmerdine.com/wp-content/uploads/2018/10/Autumn-Leaves-Background-Free-Nature-Wallpaper-Autumn-Leaves-Background.jpg");
+}
+
+h1 {
+background-color: orange;
+text-align: center;
+font-size: 100px;
+border-style: solid;
+border-width: 10px;
+text-shadow: 3px 2px white;
+font-family: Helvetica;
+cursor: not-allowed;
+animation-fill-mode: forwards;
+}
+
+h1:hover, h1:active {
+background-size: 60px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+h2 {
+padding: 20px;
+background-color: orange;
+text-align: center;
+font-size: 50px;
+border-style: solid;
+border-width: 5px;
+text-shadow: 3px 2px white;
+font-family: "Times New Roman", Times, serif;
+}
+a{
+color:black;
+transition: 0.4s;
+}
+
+a:hover, a:active {
+  font-size: 150%;
+  color: red;
+}

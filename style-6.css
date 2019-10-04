@@ -1,0 +1,39 @@
+body {
+  background-color: #FF8050;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.52), rgba(0, 0, 192, 0.13)), url("https://www.lockheedmartin.com/content/dam/lockheed-martin/eo/photo/webt/webt-woman-in-math-lead.jpg.pc-adaptive.full.medium.jpeg");
+  background-size: 1900px
+}
+
+h1 {
+  text-align: center;
+  font-size: 120px;
+  text-shadow: 3px 2px black;
+  font-family: Helvetica;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 20px;
+  color: white;
+  border-color: darkblue;
+}
+img:hover, img:active {
+ 
+  color: red;
+}
+div{
+	float: right;
+	
+}
+h3 {
+  text-shadow: 3px 2px black;
+  text-align: left 10px; 
+  font-size: 40px;
+  font-family: Helvetica;
+  width: 40%;
+  height: 500px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 5px;
+  color: white;
+  border-color: darkblue;
+  overflow: auto;
+}
